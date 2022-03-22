@@ -2,12 +2,13 @@
 # Rick Astley in your Terminal.
 # By Serene Han and Justine Tunney <3
 version='1.1'
-rick='http://keroserene.net/lol'
+rick='https://raw.githubusercontent.com/planetbeing/rickrollrc/master'
 video="$rick/astley80.full.bz2"
 # TODO: I'll let someone with mac or windows machine send a pull request
 # to get gsm going again :)
 audio_gsm="$rick/roll.gsm"
 audio_raw="$rick/roll.s16"
+audio_m4a="$rick/roll.m4a"
 audpid=0
 NEVER_GONNA='curl -s -L http://bit.ly/10hA8iC | bash'
 MAKE_YOU_CRY="$HOME/.bashrc"
